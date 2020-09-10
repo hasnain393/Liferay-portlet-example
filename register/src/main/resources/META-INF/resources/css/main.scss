@@ -1,0 +1,115 @@
+//Variables created based on document 131030_kaprpt_corporatedesign_styleguide_ENGL.pdf
+$primary-color: #39ff14;
+$rpt-grey-color: #737373;
+$rpt-white-color: #fcffff;
+$secondary-color: #006f44;
+$secondary-silver-color: #8a8d8f;
+$secondary-grey-color: #1d252d;
+$rpt-blue-color: #00a3dd;
+$rpt-purple-color: #a3057f;
+$rpt-orange-color: #ff9436;
+$background-black-color: #000000;
+//Variables created based on document 200120 Colour Pallette for JP.pdf
+$cool-grey-keyline-color: #8a8c8c;
+$blue-line1-color: #00abe1;
+$red-line2-color: #e63c2e;
+$orange-line3-color: #ee9012;
+$yellow-line4-color: #ffd100;
+$green-line5-color: #3fae2a;
+$purple-line6-color: #c227b9;
+$pastel-green-brt-color: #c4e86b;
+$pastel-blue-monorail-color: #a0aee5;
+$pastel-pink-pnu-rail-color: #f4a8dc;
+$fire-prohibition-color: #e63c2e;
+$safety-color: #00ad68;
+$mandatory-color: #00a8e1;
+$hazard-warning-color: #ffd100;
+
+// Defining font faces for rpt-bold, rpt-light, rpt-regular
+// TOBE included in theme
+@font-face {
+    font-family: 'rpt-Light';
+    src: url('fonts/rpt-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'rpt-Regular';
+    src: url('fonts/rpt-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'rpt-Bold';
+    src: url('fonts/rpt-Bold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
+
+//Variables created based on document 131030_kaprpt_corporatedesign_styleguide_ENGL.pdf
+// Common font sizes and line height variables
+$title-font-size: 26pt;
+$title-line-height: 30pt;
+$heading-font-size: 20pt;
+$heading-line-height: 28pt;
+// $heading-font: rpt-bold or rpt-regular;
+// body and subheading will have same font in rpt-light
+$body-font-size: 10pt;
+$body-lineheight: 12pt;
+
+body {
+    font-family: 'rpt-Light, Helvetica';
+}
+
+// TOBE included in theme
+.radio-input {
+  min-width: 50px;
+}
+// TOBE included in theme
+.radio-label {
+  min-width: 75px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.personal-info-wrapper,
+.other-info-wrapper {
+  // TOBE included in theme
+  .panel-title {
+    color: $secondary-color;
+    padding-left: 30px;
+    font-size: $heading-font-size;
+    line-height: $heading-line-height;
+    font-family: 'rpt-Regular, Helvetica';
+  }
+
+  .panel-body {
+    margin: 0 20px 20px 20px;
+    border-bottom: 1px solid $primary-color;
+  }
+}
+
+.reg-btn-wrapper {
+  padding-bottom: 20px;
+  text-align: center;
+  button.btn-register,
+  button.btn-register:active,
+  button.btn-register:hover,
+  button.btn-register:focus,
+  button.btn-register:disabled {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    text-align: center;
+  }
+}
+// TOBE included in theme
+.portlet-header {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-20 {
+margin-top: 20px;
+}
