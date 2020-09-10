@@ -1,0 +1,4 @@
+Bundle-Name: Strudenttest
+Bundle-SymbolicName: com.studenttest
+Bundle-Version: 1.0.0
+Export-Package: com.studenttest.constants
