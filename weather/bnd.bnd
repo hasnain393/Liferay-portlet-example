@@ -1,0 +1,4 @@
+Bundle-Name: weather
+Bundle-SymbolicName: com.weather
+Bundle-Version: 1.0.0
+Export-Package: com.weather.constants
