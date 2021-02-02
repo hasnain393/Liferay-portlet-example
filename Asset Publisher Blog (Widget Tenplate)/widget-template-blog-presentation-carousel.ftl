@@ -100,6 +100,7 @@
 
 <style>
 .data-read-more{
+     width:60%;
     color:white;
     z-index: 289;
      text-align: right;
