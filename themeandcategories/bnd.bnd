@@ -1,0 +1,4 @@
+Bundle-Name: themeandcategories
+Bundle-SymbolicName: com.themes
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration
